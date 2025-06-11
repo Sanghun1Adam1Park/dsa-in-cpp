@@ -30,3 +30,66 @@
 *.exe
 *.out
 *.app
+
+# Xcode
+DerivedData/
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# User settings
+*.xcuserstate
+
+# Swift Package Manager
+/.build/
+/Packages/
+/Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Xcode Server
+xcshareddata/xcschemes/xcschememanagement.plist
+
+# Archives
+*.xcarchive
+
+# Certificates
+*.cer
+*.mobileprovision
+*.p12
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# Project files backup
+*.swp
+*~
+*.bak
+
+# Coverage
+*.gcno
